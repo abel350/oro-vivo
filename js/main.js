@@ -34,7 +34,7 @@
 			slideshowSpeed: 4000
 	  	});
 
-	  	$('#fh5co-home .flexslider .slides > li').css('height', $(window).height());	
+	  	$('#fh5co-home .flexslider .slides > li').css('height', 700);	
 	  	$(window).resize(function(){
 	  		$('#fh5co-home .flexslider .slides > li').css('height', $(window).height());	
 	  	});
@@ -70,7 +70,7 @@
 		
 		var sticky = $('.js-sticky');
 
-		sticky.css('height', sticky.height());
+		/*sticky.css('height', 1);*/
 		$(window).resize(function(){
 			sticky.css('height', sticky.height());
 		});
@@ -84,6 +84,7 @@
 			    	$section.css({
 			    		'position' : 'fixed',
 			    		'top' : 0,
+			    		'height':70,
 			    		'width' : '100%',
 			    		'z-index' : 99999
 			    	}).addClass('fh5co-shadow');;
